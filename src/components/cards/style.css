@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card1 {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner1a {
+    background-image: url('https://epipoca.com.br/wp-content/uploads/2021/08/Batman-1.jpg');
+}
+
+.banner2a {
+    background-image: url('https://rollingstone.uol.com.br/media/_versions/zoe_kravitz_divulgacao_widelg.jpg');
+}
+
+.banner3a {
+    background-image: url('https://www.tomshw.it/images/images/2021/08/the-batman-178756.jpg');
+}
+
+@media(max-width: 768px) {
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}
