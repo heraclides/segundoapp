@@ -10,7 +10,7 @@ function Contato() {
         <>
             <Header />
                 <div 
-                    id="banner">
+                    id="banner-ct">
                 </div>
                 
                 <div id="content">
@@ -41,7 +41,7 @@ function Contato() {
 
                                     <input id="input" type="email" name="Email" placeholder="coloque um email válido"/> 
                             
-                                    <input id="input" type="tel" name="f-tel" pattern="\([0-9]{2}\)[9][0-9]{4}-[0-9]{4}" placeholder="Tel: (xx)9xxxx-xxxx"></input>
+                                    <input id="input" type="tel" name="f-tel" pattern="\[9][0-9]{4}-[0-9]{4}" placeholder="Tel: 9xxxx-xxxx"></input>
                                     <button class="button">ENVIAR</button>
                                     </div>
                                 </div>

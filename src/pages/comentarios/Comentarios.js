@@ -11,7 +11,7 @@ function Comentarios() {
             <Header />
 
                 <div 
-                    id="banner">
+                    id="banner-cm">
                 </div>
                 
                 <div id="content">
@@ -23,15 +23,14 @@ function Comentarios() {
                     </svg>
                 </div>
 
-                <div className="titulo">DEIXE SEU COMENTÁRIO</div>
-
                 <div id="text-container">
                     <div className="text-content">
-                        <div id="texto1">Prenecha os dados</div>
-                        <label for="email">Email</label>
-                        <input id="email" type="email" name="Email" placeholder="coloque um email válido"/> 
-                        <textarea maxLength="30" minLength1="10">Comente o que achou do Filme? </textarea>
+                        <div id="dados-text">
+                        <div id="texto1">Deixe seu comentário</div>
+                        <input id="input-cm" type="email" name="Email" placeholder="coloque um email válido"/> 
+                        <textarea maxLength="30" minLength1="10" placeholder="Comente o que achou do Filme?"> </textarea>
                         <button id="buttonC">ENVIAR</button>
+                        </div>
                     </div>
                 </div>
                  <Footer />
