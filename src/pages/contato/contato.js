@@ -35,15 +35,15 @@ function Contato() {
                                 <div class="dados">
                                     <p id="mens">ENTRAR EM CONTATO</p>
                                     
-                                    <div className="content-dados">
+                                    <form className="content-dados">
                                     
-                                    <input id="input" type={Text} placeholder="Nome do Usuario" autoFocus></input>
+                                    <input name="text" id="input" type={Text} placeholder="Nome do Usuario" autoFocus></input>
 
                                     <input id="input" type="email" name="Email" placeholder="coloque um email válido"/> 
                             
                                     <input id="input" type="tel" name="f-tel" pattern="\[9][0-9]{4}-[0-9]{4}" placeholder="Tel: 9xxxx-xxxx"></input>
                                     <button class="button">ENVIAR</button>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
